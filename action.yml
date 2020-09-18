@@ -1,0 +1,15 @@
+name: 'Sample-docker-action-pub'
+description: 'does a workflow that can be modified to fit your needs'
+inputs:
+  placeholder_par1:  
+    description: 'placeholder for the first parameter'
+    required: true
+    default: 'default par1'
+outputs:
+  placeholder_output1: 
+    description: 'placeholder for the first output'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.placeholder_par1 }}  
