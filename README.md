@@ -6,7 +6,7 @@ This action performs a workflow that can be used as placeholder for others.
 
 ### `placeholder_par1`
 
-**Required** The name of the person to greet. Default `"World"`.
+**Required** The name of the parameter. Default `"default par1"`.
 
 ## Outputs
 
