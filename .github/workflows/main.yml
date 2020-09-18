@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Pass a parameter to the action.yml
-        uses: actions/sample-docker-action-pub@v1
+        uses: danzarov/sample-docker-action-pub@v1
         id: sample
         with:
           placeholder_par1: 'a very cool parameter! :)'
